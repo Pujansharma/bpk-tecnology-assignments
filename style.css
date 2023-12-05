@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    background-color: rgb(200, 16, 46);
+    width: 100%;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  main {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    margin-top: 100px;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  label {
+    width: 100%;
+    font-weight: bold;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+
+  button {
+    background-color: rgb(200, 16, 46);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    /* gap: 20%; */
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .edit-btn, .delete-btn {
+    cursor: pointer;
+    color: #007bff;
+    margin-right: 10px;
+  }
+
+  #studentDetails {
+    display: none;
+    margin-top: 20px;
+  }
+
+  #studentDetails h2 {
+    font-size: 20px;
+  }
+
+  #studentDetails button {
+    margin-top: 10px;
+    gap: 20%;
+  }@media screen and (max-width: 460px) {
+    main {
+        width: 50%;
+        margin-top: 120px; 
+        margin-left: -100px;/* Adjusted margin top for better visibility */
+    }
+
+    input {
+        width: calc(100% - 16px);
+    }h1{
+      margin: auto;
+    }
+
+    button {
+        padding: 8px 12px; /* Smaller padding for buttons */
+        font-size: 14px; /* Reduced font size for buttons */
+    }header {
+        /* background-color: rgb(200, 16, 46); */
+        width: 100%;
+        /* color: #fff; */
+        /* margin-left: -100px; */
+        text-align: center;
+        /* position: fixed; */
+      }
+
+    table {
+        font-size: 5px; /* Smaller font size for table content */
+    } main {
+      width: 100%;
+      margin-left: 30%;
+    }
+
+    th, td {
+        padding: 13px; /* Smaller padding for table cells */
+    }
+
+    #studentDetails h2 {
+        font-size: 18px; /* Smaller font size for heading in studentDetails */
+    }
+}
