@@ -1,9 +1,10 @@
 # bpk-tecnology-assignment
 
 <h1>Student Management Application</h1>
-Application Screenshot
 
 Deployed Link :- https://bpktechnology.netlify.app/
+
+Application Screenshot
 
 ------------------------------landing page-----------------------
 <img src="https://github.com/Pujansharma/bpk-tecnology-beckend/assets/113420172/aea3cdde-6f37-4e3c-a87a-dc9a2b5928ba" alt="">
