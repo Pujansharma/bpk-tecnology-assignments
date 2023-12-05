@@ -2,10 +2,10 @@
 
 <h1>Student Management Application</h1>
 Application Screenshot
-------------landing page-----------------------
+
+------------------------------landing page-----------------------
 <img src="https://github.com/Pujansharma/bpk-tecnology-beckend/assets/113420172/aea3cdde-6f37-4e3c-a87a-dc9a2b5928ba" alt="">
----------------------------------------------------------------------
---------------Todo list-----------------------
+-------------------------------Todo list-----------------------
 <img src="https://github.com/Pujansharma/bpk-tecnology-beckend/assets/113420172/918427ef-d689-4232-b452-68da4078f5ef" alt="">
 Overview
 This is a student management application designed to streamline student information management for educational institutions. It provides a user-friendly interface for administrators to perform various tasks related to student data management.
